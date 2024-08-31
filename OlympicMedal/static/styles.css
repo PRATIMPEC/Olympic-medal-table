@@ -1,0 +1,89 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+header {
+    background-color: #2d3e50;
+    color: white;
+    padding: 20px 0;
+}
+
+.header {
+    background-image: url('https://www.google.com/imgres?q=best%20background%20image%20for%20olympic%20website&imgurl=https%3A%2F%2Fc4.wallpaperflare.com%2Fwallpaper%2F443%2F195%2F686%2Folympic-bright-circle-colorful-wallpaper-preview.jpg&imgrefurl=https%3A%2F%2Fwww.wallpaperflare.com%2Fsearch%3Fwallpaper%3Dolympic&docid=k2vlHmjMFpkJIM&tbnid=bbluzfSiHjDo5M&vet=12ahUKEwjj14fJ_u-HAxXcqFYBHafyANsQM3oECH4QAA..i&w=728&h=410&hcb=2&ved=2ahUKEwjj14fJ_u-HAxXcqFYBHafyANsQM3oECH4QAA');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    color: white;
+}
+
+
+
+
+.country {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag {
+    width: 60px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.medal-summary {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.medal {
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gold i {
+    color: gold;
+}
+
+.silver i {
+    color: silver;
+}
+
+.bronze i {
+    color: #cd7f32; /* Bronze color */
+}
+
+.count {
+    font-size: 1.5em;
+    font-weight: bold;
+}
